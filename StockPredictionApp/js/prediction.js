@@ -91,7 +91,7 @@ const cnn = function (model, data, epochs) {
     });
 }
 
-let url = 'https://api.iextrading.com/1.0/stock/%company%/chart/1y'
+let url = 'https://cloud.iexapis.com/stable/stock/%company%/chart/1y?token=sk_206d9743f9d34975936600aa1fc24180'
 let epochs = 100;
 let timePortion = 7;
 
